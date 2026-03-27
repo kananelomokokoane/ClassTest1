@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Joy in A Box | Luxury Comfort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">Joy in A Box</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li class="dropdown-trigger">
+                        <a href="decor.html">Décor <i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="decor.html#wall-art">Wall Art</a></li>
+                            <li><a href="decor.html#vases">Vases</a></li>
+                            <li><a href="decor.html#lighting">Lighting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="made-to-order.html">Made-to-Order</a></li>
+                    <li><a href="fluff-snuggles.html">Fluff & Snuggles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" aria-label="Account" class="icon-btn"><i class="far fa-user"></i></a>
+                <a href="#" aria-label="Favourites" class="icon-btn"><i class="far fa-heart"></i></a>
+                <a href="#" aria-label="Cart" class="icon-btn cart-icon"><i class="fas fa-shopping-bag"></i> <span class="cart-count">0</span></a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-image">
+                <div class="hero-overlay"></div>
+                <div class="hero-content container">
+                    <h1 class="hero-title">Luxury Comfort for Modern Living</h1>
+                    <p class="hero-subtitle">Timeless elegance, crafted for those who cherish serenity and refinement.</p>
+                    <a href="decor.html" class="btn btn-gold">Explore Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured container">
+            <div class="section-header">
+                <span class="section-tag">Curated Selection</span>
+                <h2 class="section-title">Featured Treasures</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/aura-vase.png" alt="Aura Ceramic Vase">
+                        <button class="fav-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Aura Ceramic Vase</h3>
+                        <p class="price">M 89</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/silk-throw.jpg" alt="Silk Woven Throw">
+                        <button class="fav-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Silk Woven Throw</h3>
+                        <p class="price">M 149</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/gilded-horizon.jpg" alt="Gilded Horizon">
+                        <button class="fav-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gilded Horizon</h3>
+                        <p class="price">M 215</p>
+                        <button class="btn-add-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-center">
+                <a href="decor.html" class="btn btn-outline">View All Décor</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo-footer">Joy in A Box</div>
+                <p>Elevating everyday moments with timeless design and soft luxury.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Receive serenity & style in your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <address>
+                    <p><i class="far fa-envelope"></i> mokokoane@joyinabox.com</p>
+                    <p><i class="fas fa-phone-alt"></i> +266 59380238</p>
+                    <p><i class="far fa-clock"></i> Mon-Fri, 9am-6pm </p>
+                </address>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container"><p>© 2025 Joy in A Box — Pure comfort, artfully presented.</p></div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/18004399021" class="floating-wa" target="_blank" aria-label="WhatsApp Chat"><i class="fab fa-whatsapp"></i></a>
+    <button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
